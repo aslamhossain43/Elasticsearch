@@ -10,4 +10,6 @@ public interface CustomerRepository extends ElasticsearchRepository<Customer, St
 
 	List<Customer> findByFirstname(String firstName);
 
+	List<Customer> findByLastname(String lastName);
+
 }
